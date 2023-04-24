@@ -6,6 +6,11 @@ function setup() {
 function draw() {
   background(250);
 
+  textSize(60);
+  textAlign(CENTER);
+
+  text('Kayla D Ferjuste', (window.innerWidth)/2, 100);
+
   //figure out color scheme and start making it look pretty: colored stokes, background color, type shit
   stroke('#1B4079');
   strokeWeight(4);
