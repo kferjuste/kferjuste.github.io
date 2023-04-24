@@ -5,13 +5,41 @@ function setup() {
 
 function draw() {
   background(250);
-  
-  //make everything in terms of the windowWidth so that it's adjusting everytime (TO DO)
-  
-  //figure out color scheme and start making it look pretty: colored stokes, background color, type shit
-  rect(30, 20, (window.innerWidth - 60), 100, 20);
-  rect(30, 170, (window.innerWidth - 60), 100, 20);
-  rect(30, 320, (window.innerWidth - 60), 100, 20);
-  rect(30, 470, (window.innerWidth - 60), 100, 20);
 }
+  //figure out color scheme and start making it look pretty: colored stokes, background color, type shit
+  stroke('#1B4079');
+  strokeWeight(4);
+  rect(30, 70, (window.innerWidth - 60), 100, 20);
+  textSize(20);
+  noStroke();
+  fill('#1B4079');
+  textAlign(LEFT);
+  text('unit 1 - machine learning TicTacToe', 40, 100);
 
+  stroke('#4D7C8A');
+  strokeWeight(4);
+  rect(30, 220, (window.innerWidth - 60), 100, 20);
+  noStroke();
+  fill('#4D7C8A');
+  textAlign(LEFT);
+  text('unit 2 - 4-bit calculators', 40, 250);
+
+
+  stroke('#7F9C96');
+  strokeWeight(4);
+  rect(30, 370, (window.innerWidth - 60), 100, 20);
+  noStroke();
+  fill('#7F9C96');
+  textAlign(LEFT);
+  text('unit 3 - building trusses', 40, 400);
+
+  stroke('#8FAD88');
+  strokeWeight(4);
+  rect(30, 520, (window.innerWidth - 60), 100, 20);
+  noStroke();
+  fill('#8FAD88');
+  textAlign(LEFT);
+  text('unit 4 - personal project', 40, 550);
+
+  //another possible color 'CBDF90'
+}
