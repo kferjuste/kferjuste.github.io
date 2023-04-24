@@ -14,7 +14,7 @@ function draw() {
   noStroke();
   fill('#1B4079');
   textAlign(LEFT);
-  text('unit 1 - machine learning TicTacToe', 40, 100);
+  text('unit 1 - machine learning TicTacToe', 40, 200);
 
   stroke('#4D7C8A');
   strokeWeight(4);
@@ -22,7 +22,7 @@ function draw() {
   noStroke();
   fill('#4D7C8A');
   textAlign(LEFT);
-  text('unit 2 - 4-bit calculators', 40, 250);
+  text('unit 2 - 4-bit calculators', 40, 350);
 
 
   stroke('#7F9C96');
@@ -31,7 +31,7 @@ function draw() {
   noStroke();
   fill('#7F9C96');
   textAlign(LEFT);
-  text('unit 3 - building trusses', 40, 400);
+  text('uni 3 - building trusses', 40, 500);
 
   stroke('#8FAD88');
   strokeWeight(4);
@@ -39,7 +39,7 @@ function draw() {
   noStroke();
   fill('#8FAD88');
   textAlign(LEFT);
-  text('unit 4 - personal project', 40, 550);
+  text('unit 4 - personal project', 40, 650);
 
   //another possible color 'CBDF90'
 }
