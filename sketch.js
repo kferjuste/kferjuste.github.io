@@ -4,16 +4,16 @@ function setup() {
   canvas = createCanvas(window.innerWidth, window.innerHeight);
   canvas.position(0,0);
   canvas.style('z-index','-1');
-  
+
 }
 
 function draw() {
   background(220);
-  frameRate(0.1);
-  
-  
+  frameRate(0.25);
+
+
   const NUM_DOTS = 400;
-  
+
   for (let i = 0; i < NUM_DOTS; i++) {
     let x = Math.random() * window.innerWidth;
     let y = Math.random() *window.innerHeight;
@@ -22,7 +22,7 @@ function draw() {
     stroke(0.5);
     ellipse(x, y, a, b)
   }
- 
+
 }
 
 function windowResized(){
